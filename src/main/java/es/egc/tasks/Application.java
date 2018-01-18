@@ -12,7 +12,8 @@ public class Application {
     private static final Logger logger = LoggerFactory.getLogger(Application.class);
 
     public static void main(String[] args) {
-        SpringApplication.run(Application.class, args);
+       	 logger.info("Initializing application...");
+	 SpringApplication.run(Application.class, args);
     }
 
     @Bean
